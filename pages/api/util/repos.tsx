@@ -8,8 +8,7 @@ export default async function User(req, res) {
             }  
         };
         
-        let { data: ReposLoiren } = await axios.get('https://api.github.com/users/loirenn/repos');
-        let { data: ReposSerity } = await axios.get('https://api.github.com/users/teamSerity/repos');
+        let { data: ReposLoiren } = await axios.get('https://api.github.com/users/feignwiki/repos');
         
         res.send([...ReposLoiren, ...ReposSerity])
     } catch(err) {
