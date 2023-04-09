@@ -2,24 +2,10 @@ export default function Techs() {
     const techs = [
         [ "TypeScript", "typescript.png" ],
         [ "JavaScript", "javascript.svg" ],
-        [ "CSS", "css.svg" ],
         [ "HTML", "html.svg" ],
-        [ "NodeJS", "node.svg" ],
-        [ "React", "react.svg" ],
-        [ "Vue", "vue.png" ],
-        [ "SolidJS", "solid.svg" ],
-        [ "Svelte", "svelte.svg" ],
-        [ "Next.js", "next.svg" ],
-        [ "Nuxt.js", "nuxt.svg" ],
-        [ "Express", "express.svg" ],
         [ "MongoDB", "mongo.svg" ],
         [ "Vercel", "vercel.svg" ],
-        [ "TailwindCSS", "tailwind.svg" ],
-        [ "Github", "github.svg" ],
-        [ "Git", "git.svg" ],
-        [ "Font Awesome", "fontawesome.png" ],
-        [ "Yarn", "yarn.svg" ],
-        [ "Heroku", "heroku.svg" ]
+        [ "Github", "github.svg" ]
     ]
     return (
         <>
