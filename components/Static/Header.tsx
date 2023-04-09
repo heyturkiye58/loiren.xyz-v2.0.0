@@ -6,10 +6,10 @@ export default function Header() {
     const router = useRouter();
 
     const messages = [
-        '“Atatürk geldi, ben kaçar aga. Kaçovvv!”',
-        '“İsmet imzaladı 1 tane, gitti 12 tane.”',
-        '“Tamam kardeş, ya***k resmi kaldırız... AMA HANGİ HESAP SENİNKİ!”',
-        '“Nasılım babuş? Façaaa... Kapat!”'
+        '“Hehe Süüü”',
+        'sen bunu okuyorsan kesin gaysin',
+        '“Anaaa Keloğlan 10 yıl olmuş ya la hızlı büyüyoruz”',
+        '“Personali Loiren den mi çaldın! vay özgün olmayan insan vay!”'
     ];
     
     return (
@@ -21,10 +21,10 @@ export default function Header() {
             <div className="flex items-center space-x-3 relative">
                 <div className="flex flex-col items-center justify-center">
                     <i className="fas fa-bolt" />
-                    <h6 className="text-xs text-white/50 mt-0.5 font-medium">v2.1.0</h6>
+                    <h6 className="text-xs text-white/50 mt-0.5 font-medium">v0.1</h6>
                 </div>
                 <Link href="/">
-                    <a className="font-semibold text-4xl cursor-pointer">Loiren</a>
+                    <a className="font-semibold text-4xl cursor-pointer">Adenin Konas</a>
                 </Link>
             </div>
             <div className="flex items-center space-x-3 cursor-pointer">
@@ -39,10 +39,10 @@ export default function Header() {
                 </Link>
             </div>
             <div className="flex items-center space-x-3">
-                <a target="_blank" href="https://github.com/loirenn">
+                <a target="_blank" href="https://github.com/heyturkiye58">
                     <i className="flex items-center justify-center w-12 h-12 fab fa-github fa-2x hover:text-black hover:bg-white p-2 rounded-full transition-all duration-300" />
                 </a>
-                <a target="_blank" href="https://discord.com/users/915326086932484126">
+                <a target="_blank" href="https://discord.com/users/849166079553175582">
                     <i className="flex items-center justify-center w-12 h-12 fab fa-discord text-2xl hover:text-black hover:bg-white p-2 rounded-full transition-all duration-300" />
                 </a>
             </div>
