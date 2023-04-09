@@ -12,14 +12,14 @@ export default function Activities() {
                 let _currentTheme = localStorage.getItem('links') || 'link1';
                 if(_currentTheme === 'link1') {
                     localStorage.setItem('links', 'link2');
-                    document.getElementById('iframe-id').setAttribute('src', 'https://linkcord.js.org/api/v3/widget/915326086932484126?type=vsc&language=en&theme=dark&background=#02040A');
+                    document.getElementById('iframe-id').setAttribute('src', 'https://linkcord.js.org/api/v3/user/849166079553175582?type=vsc&language=en&theme=dark&background=#02040A');
                 } else {
                     localStorage.setItem('links', 'link1');
-                    document.getElementById('iframe-id').setAttribute('src', 'https://linkcord.js.org/api/v3/widget/915326086932484126?type=spotify_large&language=en&theme=dark&background=#02040A');
+                    document.getElementById('iframe-id').setAttribute('src', 'https://linkcord.js.org/api/v3/user/849166079553175582?type=spotify_large&language=en&theme=dark&background=#02040A');
                 }
                 }} 
                 className="p-2 rounded-xl hover:bg-gray-400/10 cursor-pointer absolute -bottom-12 left-0 text-gray-400/70 hover:text-white font-light transition-all font-medium">Change</p>
-                <iframe id="iframe-id" src="https://linkcord.js.org/api/v3/widget/915326086932484126?type=spotify_large&language=en&theme=dark&background=#02040A" className="w-full" height="140" frameBorder="0" />
+                <iframe id="iframe-id" src="https://linkcord.js.org/api/v3/user/849166079553175582?type=spotify_large&language=en&theme=dark&background=#02040A" className="w-full" height="140" frameBorder="0" />
             </div>}
         </div>
     );
