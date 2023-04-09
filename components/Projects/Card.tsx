@@ -19,7 +19,7 @@ export default function Projects() {
                 <a className="flex items-center space-x-3 -ml-2">
                     <h1 className="text-zinc-100 leading-none text-2xl">Feign Wiki</h1>
                 </a>
-                <h6 className="font-medium mt-1 text-white/40 text-sm -ml-2">Feign oyunu hakkında Miraheze Limited tarafından barındırılmış vikidir.</h6>
+                <h6 className="font-medium mt-1 text-white/40 text-sm -ml-2">Feign oyunu hakkında bilgi sunan, ücretsiz ve kâr amacı gütmeyen, Miraheze Limited tarafından barındırılmış vikidir.</h6>
             </div>
         </div>
     </a>
