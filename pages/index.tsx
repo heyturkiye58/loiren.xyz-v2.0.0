@@ -13,7 +13,7 @@ export default function Index() {
     return (
         <>
             <Head>
-                 <title>Home | Loiren</title>
+                 <title>Home | Adenin Konas</title>
             </Head>
             <Hero />
             <div className="my-10 flex space-x-5">
