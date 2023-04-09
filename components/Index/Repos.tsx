@@ -27,7 +27,7 @@ export default function Repos() {
                             </a>
                         ))
                     ) : (
-                        <a target="_blank" className="bg-zinc-400/5 hover:bg-zinc-400/10 active:opacity-50 transition-all duration-200 flex flex-col rounded-lg py-4 px-5 h-28" href="https://github.com/loirenn">
+                        <a target="_blank" className="bg-zinc-400/5 hover:bg-zinc-400/10 active:opacity-50 transition-all duration-200 flex flex-col rounded-lg py-4 px-5 h-28" href="https://github.com/heyturkiye58">
                             <div className="animate-pulse h-6 w-40 rounded-lg bg-white/10" />
                             <div className="w-full mt-auto flex-1 flex items-end justify-end space-x-3">
                                 <h6 className="flex items-center gap-x-1 text-zinc-300 font-light">
@@ -39,7 +39,7 @@ export default function Repos() {
                             </div>
                         </a>
                     )) :
-                    <a target="_blank" className="bg-zinc-400/5 hover:bg-zinc-400/10 active:opacity-50 transition-all duration-200 flex flex-col rounded-lg py-4 px-5 h-28" href="https://github.com/loirenn">
+                    <a target="_blank" className="bg-zinc-400/5 hover:bg-zinc-400/10 active:opacity-50 transition-all duration-200 flex flex-col rounded-lg py-4 px-5 h-28" href="https://github.com/heyturkiye58">
                         <div className="animate-pulse h-6 w-40 rounded-lg bg-white/10" />
                         <div className="w-full mt-auto flex-1 flex items-end justify-end space-x-3">
                             <h6 className="flex items-center gap-x-1 text-zinc-300 font-light">
