@@ -12,7 +12,7 @@ type Methods = (
 );
 
 export default function SWR(url: string, method: Methods = 'get') {
-    if (url == 'linkcord') url = 'https://linkcord.js.org/api/v3/user/915326086932484126';
+    if (url == 'linkcord') url = 'https://linkcord.js.org/api/v3/user/849166079553175582';
     return useSWR(url, href => (
         axios[method](href).then(res => res.data)
     ));
