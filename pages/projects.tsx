@@ -5,7 +5,7 @@ export default function Projects() {
     return (
         <>
             <Head>
-                 <title>Projects | Loiren</title>
+                 <title>Projects | Adenin Konas</title>
             </Head>
             <div className="w-full my-5 mt-10">
                 <h1 className="text-4xl text-white font-bold text-center">Projects</h1>
